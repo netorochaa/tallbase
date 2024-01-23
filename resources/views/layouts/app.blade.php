@@ -20,6 +20,9 @@
         </style>
     </head>
     <body class="font-sans antialiased">
+        <x-notifications z-index="z-50" />
+        <x-dialog z-index="z-50" />
+
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
 
